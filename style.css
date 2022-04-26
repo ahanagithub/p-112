@@ -1,0 +1,23 @@
+.btn-warning:hover
+{
+    background-color: darkmagenta;
+}
+
+h3 
+{
+    font-size: 25px !important;
+}
+
+canvas
+{
+border: 2px solid black;
+animation-name: ahana;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ahana
+{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px mediumorchid;}
+}
